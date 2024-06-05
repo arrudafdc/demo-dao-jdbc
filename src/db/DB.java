@@ -13,7 +13,7 @@ public class DB {
 
   private static Connection conn = null;
 
-  public static Connection getGConnection() {
+  public static Connection getConnection() {
     try {
       if (conn == null) {
         Properties props = loadProperties();
